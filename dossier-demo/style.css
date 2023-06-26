@@ -1,0 +1,42 @@
+p,
+h2,
+.blue {
+    color: royalblue;
+    font-size: 20px;
+}
+
+.vert {
+    color: green;
+}
+
+/* ceci est un comqfs
+fqsd
+fqs
+df
+qs
+df*/
+
+h1 {
+    color: blueviolet;
+}
+
+.ma-classe {
+    color: silver;
+}
+
+#gold {
+    color: gold;
+}
+
+#logo {
+    /* quelques proprieté */
+}
+
+.rouge {
+    color: red;
+}
+
+.gros-texte {
+    font-size: large;
+    color: cadetblue;
+}
