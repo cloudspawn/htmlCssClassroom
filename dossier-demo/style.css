@@ -1,7 +1,14 @@
+body {
+    /* background-color: RGBA(129, 161, 193, 0.5);
+    color: white; */
+    background: linear-gradient(90deg, #3fb696, #8263c2);
+    opacity: 0.9;
+}
+
 p,
 h2,
 .blue {
-    color: royalblue;
+    color: RGBA(220, 75, 25, 0.8);
     font-size: 1em;
 }
 
@@ -19,6 +26,10 @@ df*/
 h1 {
     color: blueviolet;
     text-align: center;
+    background-image: url(images/karsten-wurth-mbc6XPuv3Qw-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top right;
 }
 
 .ma-classe {
