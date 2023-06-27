@@ -83,3 +83,43 @@ h1 {
     padding: 80px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
+img:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration-color: #1d313f;
+}
+
+a:focus {
+    background-color: #1d313f;
+    color: white;
+    outline-color: deeppink;
+
+}
+
+a:visited {
+    color: black;
+}
+
+a[title="cliker ici"] {
+    color: aqua;
+}
+
+img:hover+h2 {
+    color: deeppink;
+}
+
+h3 em {
+    color: green
+}
