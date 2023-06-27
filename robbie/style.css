@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 em {
     color: #a5b4fc;
     font-style: normal;
@@ -34,6 +38,10 @@ p {
     background-color: white;
 }
 
+.lien-icone:hover {
+    opacity: 0.5;
+}
+
 p,
 li {
     font-size: 1.1em;
@@ -45,6 +53,11 @@ li {
     color: white;
     font-family: 'Montserrat';
     border-radius: 50px;
+}
+
+.cta:hover {
+    text-decoration: none;
+    background: linear-gradient(#696484, #8788BA);
 }
 
 .carre-contenu {
