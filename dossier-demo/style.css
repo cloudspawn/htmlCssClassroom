@@ -30,6 +30,7 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
     background-position: top right;
+    text-shadow: 6px 6px 5px violet;
 }
 
 .ma-classe {
@@ -71,4 +72,12 @@ h1 {
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+}
+
+.bordure {
+    border-color: black;
+    border-bottom: 3px solid;
+    border-top: 3px dotted pink;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px black;
 }
