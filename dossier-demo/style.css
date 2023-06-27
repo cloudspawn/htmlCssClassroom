@@ -123,3 +123,7 @@ img:hover+h2 {
 h3 em {
     color: green
 }
+
+.banner {
+    background: linear-gradient(to right, #000046, #1CB5E0);
+}

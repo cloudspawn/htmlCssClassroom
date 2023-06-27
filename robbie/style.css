@@ -1,5 +1,4 @@
 body {
-    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
     background-color: #1F2039;
@@ -33,8 +32,8 @@ p {
     font-size: 1.1em;
 }
 
-.entete,
-.pied-de-page {
+header,
+footer {
     background-color: white;
 }
 
