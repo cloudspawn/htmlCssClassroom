@@ -10,6 +10,15 @@ h2,
 .blue {
     color: RGBA(220, 75, 25, 0.8);
     font-size: 1em;
+    margin: 10px;
+}
+
+p {
+    margin-top: 20px;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    background-color: #1d313f;
 }
 
 .vert {
@@ -126,4 +135,40 @@ h3 em {
 
 .banner {
     background: linear-gradient(to right, #000046, #1CB5E0);
+    width: 50%;
+    height: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+article {
+    width: 150px;
+    padding: 50px;
+    margin: 10px;
+    background-color: #1d313f;
+    color: aliceblue;
+}
+
+.one {
+    order: 1;
+    flex: 3;
+}
+
+.two {
+    order: 3;
+
+}
+
+.three {
+    order: 2;
+    flex: 1;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }

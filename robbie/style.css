@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
@@ -24,9 +28,6 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
-    color: #f9f8ff;
-}
 
 p {
     font-size: 1.1em;
@@ -35,6 +36,16 @@ p {
 header,
 footer {
     background-color: white;
+    padding: 20px 50px;
+}
+
+.a-propos-main {
+    margin: auto;
+    width: 50%;
+}
+
+section {
+    padding: 80px;
 }
 
 .lien-icone:hover {
@@ -52,6 +63,7 @@ li {
     color: white;
     font-family: 'Montserrat';
     border-radius: 50px;
+    padding: 20px;
 }
 
 .cta:hover {
@@ -60,6 +72,15 @@ li {
 }
 
 .carre-contenu {
+    padding: 50px;
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
+}
+
+.carre-contenu h2 {
+    margin-top: 30px;
+}
+
+.carre-contenu ul {
+    margin-top: 30px;
 }
