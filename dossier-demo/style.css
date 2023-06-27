@@ -77,7 +77,9 @@ h1 {
 .bordure {
     border-color: black;
     border-bottom: 3px solid;
-    border-top: 3px dotted pink;
-    border-radius: 10px;
-    box-shadow: 6px 6px 15px black;
+    border-top: 3px double gold;
+    border-radius: 30% 70% 78% 22% / 19% 49% 51% 81%;
+    /* box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5); */
+    padding: 80px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
