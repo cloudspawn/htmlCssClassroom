@@ -281,3 +281,19 @@ thead,
 tfoot {
     font-weight: bold;
 }
+
+.formulaire {
+    margin: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid black;
+}
