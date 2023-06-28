@@ -4,7 +4,8 @@
 
 .portfolio-section-photos h2 {
   color: #242424;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .grid-paysages {
@@ -49,4 +50,16 @@
 
 .lien-conteneur-photo:hover .photo-hover {
   display: flex;
+}
+
+@media screen and (max-width: 996px) {
+  .grid-paysages {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .grid-portraits {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
 }

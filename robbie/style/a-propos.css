@@ -15,7 +15,7 @@
   margin-top: 30px;
 }
 
-.carre-contenu + div {
+.carre-contenu+div {
   text-align: center;
 }
 
@@ -47,4 +47,10 @@ h2 {
 h1,
 h2 {
   text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .section-tarifs {
+    display: none;
+  }
 }
