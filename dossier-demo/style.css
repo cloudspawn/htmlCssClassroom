@@ -259,3 +259,25 @@ section {
     top: 20px;
     left: 20px;
 }
+
+td,
+th {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+
+table {
+    border-collapse: collapse;
+    caption-side: bottom;
+    margin: auto;
+}
+
+caption {
+    margin: 15px;
+}
+
+thead,
+tfoot {
+    font-weight: bold;
+}
